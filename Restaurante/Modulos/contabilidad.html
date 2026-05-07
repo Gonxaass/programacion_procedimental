@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Contabilidad</title>
+
+
+</head>
+<style>
+
+
+
+        body{
+            background: #dfe6e9;
+
+        }
+
+        .principal{
+
+            background: white;
+            border: 4px solid #2d3436;
+          
+        }
+
+        .encabezado{
+         
+            border: 2px solid #636e72;
+            border-radius: 10px;
+            background: #74b9ff;
+            color: white;
+           
+        }
+
+        .contenido{
+            display: flex;
+            gap: 25px;
+        }
+
+
+
+        .usuario{
+            border: 2px solid #b2bec3;
+
+            background: #f8f9fa;
+
+        }
+
+        .circulo{
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 4px solid #0984e3;
+            margin: auto;
+            background: #dfe6e9;
+            overflow: hidden;
+        }
+
+        .nombre{
+            margin-top: 20px;
+            padding: 12px;
+            border: 2px solid #b2bec3;
+            border-radius: 8px;
+            background: white;
+            font-weight: bold;
+            color: #2d3436;
+        }
+
+
+
+        .formulario{
+            flex: 1;
+            border: 2px solid #b2bec3;
+            border-radius: 12px;
+            padding: 25px;
+            background: #fdfdfd;
+        }
+
+        .grupo{
+            margin-bottom: 18px;
+        }
+
+
+        .grupo input{
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ced6e0;
+            border-radius: 8px;
+            font-size: 15px;
+        }
+
+
+
+        .botones button{
+            border-radius: 8px;
+            font-size: 16px;
+            color: white;
+        }
+
+        .guardar{
+            background: #00b894;
+        }
+
+        .limpiar{
+            background: #d63031;
+        }
+
+        .guardar:hover{
+            background: #009874;
+        }
+
+        .limpiar:hover{
+            background: #b71c1c;
+        }
+
+
+</style>
+<body>
+
+    <div class="principal">
+
+        <div class="encabezado">
+            MÓDULO DE CONTABILIDAD
+        </div>
+
+        <div class="contenido">
+
+           
+
+            <div class="usuario">
+
+                <div class="circulo">
+                </div>
+
+                <div class="nombre">
+                    Nombre del Cliente
+                </div>
+
+            </div>
+
+
+
+            <div class="formulario">
+
+                <div class="grupo">
+                    <label>Ventas</label>
+                    <input type="text" placeholder="Ingrese las ventas">
+                </div>
+
+                <div class="grupo">
+                    <label>Fecha</label>
+                    <input type="date">
+                </div>
+
+                <div class="grupo">
+                    <label>Ingresos</label>
+                    <input type="text" placeholder="Ingrese los ingresos">
+                </div>
+
+                <div class="grupo">
+                    <label>Egresos</label>
+                    <input type="text" placeholder="Ingrese los egresos">
+                </div>
+
+                <div class="grupo">
+                    <label>Concepto</label>
+                    <input type="text" placeholder="Ingrese el concepto">
+                </div>
+
+                <div class="grupo">
+                    <label>Valor</label>
+                    <input type="number" placeholder="Ingrese el valor">
+                </div>
+
+                <div class="botones">
+                    <button class="guardar">Guardar</button>
+                    <button class="limpiar">Limpiar</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
